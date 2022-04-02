@@ -1,9 +1,5 @@
-version: '1.17'
-  
 project: quinnan-gill/mayhem-cmake-example
 target: hackathon
-
-baseimage: ghcr.io/quinnan-gill/mayhem-cmake-example:mayhem
 
 cmds:
   - cmd: /fuzzme
